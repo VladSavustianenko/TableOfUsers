@@ -1,0 +1,21 @@
+.table {
+    border: 1px solid #000;
+    min-width: 300px;
+    padding: 10px;
+}
+.thead {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+.thead__item {
+    cursor: pointer;
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+.user__item {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+<div class="table">
+    <div class="thead">
+        <span class="thead__item" (click)="sortById()">ID</span>
+        <span class="thead__item" (click)="sortByName()">Name</span>
+        <span class="thead__item" (click)="sortByAge()">Age</span>
+    </div>
+    <div class="tbody">
+        <div class="user" *ngFor="let user of data; let i = index">
+            <span class="user__item" *ngIf="user.name || user.age">{{ user.id + 1 }}</span>
+            <span class="user__item" *ngIf="user.name || user.age">{{ user.name }}</span>
+            <span class="user__item" *ngIf="user.name || user.age">{{ user.age }}</span>
+        </div>
+    </div>
+</div>

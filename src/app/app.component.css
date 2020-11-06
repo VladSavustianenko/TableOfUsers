@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.thead {
+    display: flex;
+    justify-content: space-around;
+}
+.container div {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin: 10px auto;
+}

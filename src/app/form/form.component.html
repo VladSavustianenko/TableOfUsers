@@ -1,0 +1,22 @@
+<div>
+    <td>
+        <input
+            value="{{ user.name }}"
+            type="text"
+            (change)="nameChange($event)"
+        >
+    </td>
+    <td>
+        <input
+            value="{{ user.age }}"
+            type="number"
+            (change)="ageChange($event)"
+        >
+    </td>
+    <td>
+        <button (click)="save()">Save</button>
+    </td>
+    <td>
+        <button (click)="delete()">Delete</button>
+    </td>
+</div>
